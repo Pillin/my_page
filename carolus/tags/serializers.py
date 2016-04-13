@@ -1,12 +1,12 @@
 #-*- coding: utf-8 -*-
 from rest_framework import serializers
-from .models import Post
+from .models import Tag
 
 
-class PostSerializer(serializers.ModelSerializer):
+class TagSerializer(serializers.ModelSerializer):
     """
     Serializador de posts
     """
 
     class Meta:
-        model = Post
+        model = Tag

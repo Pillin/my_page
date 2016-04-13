@@ -41,7 +41,8 @@ INSTALLED_APPS = (
     'rest_framework',
     'ckeditor',
     'modeltranslation',
-    'posts'
+    'posts',
+    'tags'
 )
 
 MIDDLEWARE_CLASSES = (
